@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.work{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background:#08645dbe;
+    box-shadow: 5px 10px #888888;
+    margin-top: 0px;
+    /* transition: border-radius 5s; */
+    /* transition-timing-function: ease; */
+    transition: color 6s, font-size 6s;
+    animation-name: balloon;
+    animation-duration: 6s;
+}
+.bt1{
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(26, 103, 148);
+    text-shadow: 2px 2px #050202;
+    box-shadow: 5px 10px #888888;
+    border-style:solid;
+    width: 170px;
+    border-color: aqua;
+    justify-content: center;
+}

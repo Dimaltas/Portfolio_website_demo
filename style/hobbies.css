@@ -1,0 +1,25 @@
+/* Background colour and Home button are loaded from index.css */
+.hobbies{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background:#08645dbe;
+    box-shadow: 5px 10px #888888;
+    margin-top: 0px;
+    /* transition: border-radius 5s; */
+    /* transition-timing-function: ease; */
+    transition: color 6s, font-size 6s;
+    animation-name: balloon;
+    animation-duration: 6s;
+}
+.bt1{
+    display: flex;
+    border-radius: 25px;
+    background-color: rgb(26, 103, 148);
+    text-shadow: 2px 2px #050202;
+    box-shadow: 5px 10px #888888;
+    border-style:solid;
+    width: 170px;
+    border-color: aqua;
+    justify-content: center;
+}
